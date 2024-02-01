@@ -1,0 +1,43 @@
+:root {
+  --font-base-size: 16px;
+  --font-base-family: Helvetica, Arial, sans-serif;
+  --max-width: 56rem;
+  --spacing: 1rem;
+  --color-border: #ddd;
+}
+html {
+  box-sizing: border-box;
+}
+body {
+  background-repeat: no-repeat;
+  background-image: url("myndir/match-footballs-12.12.jpg");
+  background-size: cover;
+  font-family: var(--font-base-family);
+  font-size: var(--font-base-size);
+  margin: 0 auto;
+  max-width: var(--max-width);
+  padding: var(--spacing);
+}
+
+h1 {
+  color: red;
+  margin-bottom: var(--spacing);
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.efni{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+a {
+  color: red;
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: red;
+}
